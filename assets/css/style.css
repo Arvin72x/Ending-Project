@@ -1,8 +1,72 @@
 
-/*-- rect styles --*/
+/*-- reset styles --*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------ selectores ---------------*/
+
+.font-family {
+    font-family: Kadwa;
+}
+
+.color-green {
+    color: #003500;
+}
+
+.color-yellow {
+    color: #FFC107;
+}
+
+.color-white {
+    color: #B4C8B1;
+}
+
+.D-inline-block {
+    display: inline-block;
+}
+
+.D-flex {
+    display: flex;
+}
+
+.flex-dir {
+    flex-direction: column;
+}
+
+.just-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.P-relative {
+    position: relative;
+}
+
+.P-absolute {
+    position: absolute;
 }
 
