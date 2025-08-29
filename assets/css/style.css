@@ -7,12 +7,57 @@
 }
 
 
+/*------------ header styles --------*/
+
+.header {
+    height: 100px;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.h-foodmart {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-list-ul {
+    list-style: none;
+}
+
+.nav-list-li {
+    font-size: 20px;
+}
 
 
 
+/*------------- main styles ------------*/
 
 
+/* description */
 
+.Fruit-Vegetable {
+    height: 900px;
+    padding-left: 250px;
+}
+
+.description p:first-child{
+    border-radius: 12px;
+    padding: 0 15px;
+}
+
+.description h3{
+    width: 360px;
+}
+
+.buttom-link button {
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 0 30px;
+    font-size: 24px;
+    font-family: inherit;
+    margin-top: 25px;
+}
 
 
 
@@ -42,6 +87,18 @@
     color: #B4C8B1;
 }
 
+.b-color-green {
+    background-color: #003500;
+}
+
+.b-color-yellow {
+    background-color: #FFC107;
+}
+
+.b-color-white {
+    background-color: #B4C8B1;
+}
+
 .D-inline-block {
     display: inline-block;
 }
@@ -58,8 +115,20 @@
     justify-content: center;
 }
 
+.just-content-between {
+    justify-content: space-between;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-10 {
+    gap: 10px;
 }
 
 .P-relative {
@@ -70,3 +139,46 @@
     position: absolute;
 }
 
+.buttom-0 {
+    bottom: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.M-left {
+    margin-left: 1rem;
+}
+
+.M-top {
+    margin-top: 1rem;
+}
+
+.w-32 {
+    width: 20px;
+}
+
+.w-1000 {
+    width: 1000px;
+}
+
+.font-size-10px {
+    font-size: 10px;
+}
+
+.font-size-24px {
+    font-size: 24px;
+}
+
+.font-size-32px {
+    font-size: 32px;
+}
+
+.font-size-96px {
+    font-size: 75px;
+}
+
+.line-height {
+    line-height: 132%;
+}
