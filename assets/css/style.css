@@ -36,7 +36,7 @@
 /* description */
 
 .Fruit-Vegetable {
-    height: 900px;
+    height: auto;
     padding-left: 250px;
 }
 
@@ -60,8 +60,56 @@
 }
 
 
+/* Categories */
 
+.Categories {
+    margin-top: 10rem;
+}
 
+.Categories-show-more {
+    margin-top: 1.3rem;
+}
+
+.Categories-p p {
+    font-size: 64px;
+}
+
+.show-more button {
+    font-size: 26px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.Categories-box {
+    max-width: 340px;
+    height: 340px;
+    border-radius: 15px;
+    background-image: url(/assets/images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.Categories-box h4 {
+    font-size: 36px;
+}
+
+.Categories-box p {
+    font-size: 20px;
+    line-height: 118%;
+    color: white;
+}
+
+.Categories-box .show-more button {
+    margin-top: 1.5rem;
+}
+
+/* Categories2 */
+
+.Categories2 {
+    margin-top: 10rem;
+}
 
 
 
@@ -107,7 +155,7 @@
     display: flex;
 }
 
-.flex-dir {
+.flex-dir-col {
     flex-direction: column;
 }
 
@@ -119,8 +167,16 @@
     justify-content: space-between;
 }
 
+.just-content-evenly {
+    justify-content: space-around;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.flex-warp {
+    flex-wrap: wrap;
 }
 
 .gap-20 {
